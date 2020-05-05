@@ -3,64 +3,66 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Subscriptions 3.0.1\n"
-"Report-Msgid-Bugs-To: https://github.com/Prospress/woocommerce-"
-"subscriptions/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/Prospress/woocommerce-subscriptions/"
+"issues\n"
 "POT-Creation-Date: 2020-01-17 01:52:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-05-04 09:32+0000\n"
-"Last-Translator: atanas <atanas@unax.org>\n"
-"Language-Team: Български\n"
-"X-Generator: Loco https://localise.biz/\n"
+"PO-Revision-Date: 2020-05-05 09:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
 "Language: bg_BG\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Loco-Version: 2.3.1; wp-5.3.3"
+"X-Loco-Version: 2.3.3; wp-5.3.3\n"
 
 #: includes/abstracts/abstract-wcs-related-order-store.php:147
 msgid "Invalid relation type: %s. Order relationship type must be one of: %s."
 msgstr ""
+"Невалиден тип връзка:% s. Типът на връзката на поръчката трябва да бъде един "
+"от:% s."
 
 #: includes/admin/class-wc-subscriptions-admin.php:193
 msgid "Simple subscription"
-msgstr ""
+msgstr "Обикновен абонамент"
 
 #: includes/admin/class-wc-subscriptions-admin.php:194
 msgid "Variable subscription"
-msgstr ""
+msgstr "Абонамент с вариации"
 
 #: includes/admin/class-wc-subscriptions-admin.php:215
 msgid "Downloadable"
-msgstr ""
+msgstr "За изтегляне"
 
 #: includes/admin/class-wc-subscriptions-admin.php:216
 msgid "Virtual"
-msgstr ""
+msgstr "Виртуален"
 
 #: includes/admin/class-wc-subscriptions-admin.php:280
 msgid "Choose the subscription price, billing interval and period."
-msgstr ""
+msgstr "Изберете абонаментната цена, интервал на плащане и период."
 
 #. translators: placeholder is a currency symbol / code
 #: includes/admin/class-wc-subscriptions-admin.php:293
 #: templates/admin/html-variation-price.php:44
 msgid "Subscription price (%s)"
-msgstr ""
+msgstr "Цена на абонамент (%s)"
 
 #: includes/admin/class-wc-subscriptions-admin.php:296
 msgid "Subscription interval"
-msgstr ""
+msgstr "Интервал на абонамент"
 
 #: includes/admin/class-wc-subscriptions-admin.php:302
 #: includes/admin/class-wc-subscriptions-admin.php:439
 msgid "Subscription period"
-msgstr ""
+msgstr "Период на абонамент"
 
 #: includes/admin/class-wc-subscriptions-admin.php:316
 #: includes/admin/class-wc-subscriptions-admin.php:440
 #: templates/admin/html-variation-price.php:66
 msgid "Expire after"
-msgstr ""
+msgstr "Изтича след"
 
 #: includes/admin/class-wc-subscriptions-admin.php:319
 msgid ""
@@ -68,33 +70,39 @@ msgid ""
 "is in addition to any free trial or amount of time provided before a "
 "synchronised first renewal date."
 msgstr ""
+"Автоматично изтичане на абонамента след този период от време. Тази дължина е "
+"в допълнение към всеки безплатен пробен период или период от време, "
+"предоставен преди синхронизирана първа дата за подновяване."
 
 #. translators: %s is a currency symbol / code
 #: includes/admin/class-wc-subscriptions-admin.php:329
 #: templates/admin/html-variation-price.php:20
 msgid "Sign-up fee (%s)"
-msgstr ""
+msgstr "Такса за регистрация (%s)"
 
 #: includes/admin/class-wc-subscriptions-admin.php:331
 msgid ""
-"Optionally include an amount to be charged at the outset of the subscription."
-" The sign-up fee will be charged immediately, even if the product has a free "
-"trial or the payment dates are synced."
+"Optionally include an amount to be charged at the outset of the "
+"subscription. The sign-up fee will be charged immediately, even if the "
+"product has a free trial or the payment dates are synced."
 msgstr ""
+"По желание включете сума, която ще бъде таксувана в началото на абонамента. "
+"Таксата за регистрация ще бъде начислена незабавно, дори ако продуктът има "
+"безплатен пробен период или датите на плащане са синхронизирани."
 
 #: includes/admin/class-wc-subscriptions-admin.php:343
 #: templates/admin/html-variation-price.php:25
 msgid "Free trial"
-msgstr ""
+msgstr "Пробен период"
 
 #: includes/admin/class-wc-subscriptions-admin.php:346
 #: templates/admin/deprecated/html-variation-price.php:115
 msgid "Subscription Trial Period"
-msgstr ""
+msgstr "Пробен период на абонамент"
 
 #: includes/admin/class-wc-subscriptions-admin.php:378
 msgid "One time shipping"
-msgstr ""
+msgstr "Еднократно изпращане"
 
 #: includes/admin/class-wc-subscriptions-admin.php:379
 msgid ""
@@ -103,26 +111,31 @@ msgid ""
 "initial order. Note: for this setting to be enabled the subscription must "
 "not have a free trial or a synced renewal date."
 msgstr ""
+"Доставка за абонаментни продукти обикновено се таксува при първоначална "
+"поръчка и всички поръчки за подновяване. Активирайте това, за да таксувате "
+"доставката само веднъж при първоначалната поръчка. Забележка: за да бъде "
+"активирана тази настройка, абонаментът не трябва да има безплатен пробен "
+"период или синхронизирана дата за подновяване."
 
 #: includes/admin/class-wc-subscriptions-admin.php:436
 msgid "Subscription pricing"
-msgstr ""
+msgstr "Цена на абонамента"
 
 #: includes/admin/class-wc-subscriptions-admin.php:437
 msgid "Subscription sign-up fee"
-msgstr ""
+msgstr "Такса за регистрация на абонамента"
 
 #: includes/admin/class-wc-subscriptions-admin.php:438
 msgid "Subscription billing interval"
-msgstr ""
+msgstr "Интервал на плащане на абонамент"
 
 #: includes/admin/class-wc-subscriptions-admin.php:441
 msgid "Free trial length"
-msgstr ""
+msgstr "Дължина на пробен период"
 
 #: includes/admin/class-wc-subscriptions-admin.php:442
 msgid "Free trial period"
-msgstr ""
+msgstr "Пробен период"
 
 #: includes/admin/class-wc-subscriptions-admin.php:766
 msgid ""
@@ -229,7 +242,7 @@ msgstr ""
 #: includes/privacy/class-wcs-privacy-exporters.php:51
 #: woocommerce-subscriptions.php:256 woocommerce-subscriptions.php:269
 msgid "Subscriptions"
-msgstr "Абонаменти"
+msgstr ""
 
 #: includes/admin/class-wc-subscriptions-admin.php:1184
 msgid "Button Text"
@@ -327,8 +340,8 @@ msgstr ""
 msgid ""
 "If you don't want new subscription purchases to automatically charge renewal "
 "payments, you can turn off automatic payments. Existing automatic "
-"subscriptions will continue to charge customers automatically. %sLearn "
-"more%s."
+"subscriptions will continue to charge customers automatically. %sLearn more"
+"%s."
 msgstr ""
 
 #: includes/admin/class-wc-subscriptions-admin.php:1290
@@ -1833,11 +1846,11 @@ msgstr ""
 
 #: includes/class-wc-subscription.php:1881
 msgid ""
-"The \"all\" value for $order_type parameter is deprecated. It was a misnomer,"
-" as it did not return resubscribe orders. It was also inconsistent with "
-"order type values accepted by wcs_get_subscription_orders(). Use array( "
-"\"parent\", \"renewal\", \"switch\" ) to maintain previous behaviour, or "
-"\"any\" to receive all order types, including switch and resubscribe."
+"The \"all\" value for $order_type parameter is deprecated. It was a "
+"misnomer, as it did not return resubscribe orders. It was also inconsistent "
+"with order type values accepted by wcs_get_subscription_orders(). Use "
+"array( \"parent\", \"renewal\", \"switch\" ) to maintain previous behaviour, "
+"or \"any\" to receive all order types, including switch and resubscribe."
 msgstr ""
 
 #: includes/class-wc-subscription.php:2078 wcs-functions.php:823
@@ -2356,7 +2369,7 @@ msgstr ""
 #: includes/class-wc-subscriptions-product.php:378
 #: includes/wcs-formatting-functions.php:194
 msgid "%1$s for %2$s"
-msgstr "%1$s за %2$s"
+msgstr ""
 
 #. translators: 1$: subscription string (e.g. "$15 on March 15th every 3 years
 #. for 6 years"), 2$: trial length (e.g.: "with 4 months free trial")
@@ -2739,8 +2752,8 @@ msgstr ""
 #. translators: placeholders are opening and closing link tags
 #: includes/class-wcs-limiter.php:46
 msgid ""
-"Only allow a customer to have one subscription to this product. %sLearn "
-"more%s."
+"Only allow a customer to have one subscription to this product. %sLearn more"
+"%s."
 msgstr ""
 
 #: includes/class-wcs-limiter.php:48
@@ -2802,8 +2815,8 @@ msgstr ""
 
 #: includes/class-wcs-post-meta-cache-manager.php:198
 msgid ""
-"Invalid update type: %s. Post update types supported are \"add\" or "
-"\"delete\". Updates are done on post meta directly."
+"Invalid update type: %s. Post update types supported are \"add\" or \"delete"
+"\". Updates are done on post meta directly."
 msgstr ""
 
 #: includes/class-wcs-query.php:114
@@ -2889,8 +2902,8 @@ msgstr ""
 
 #: includes/class-wcs-switch-cart-item.php:302
 msgid ""
-"Invalid switch type \"%s\". Switch must be one of: \"upgrade\", "
-"\"downgrade\" or \"crossgrade\"."
+"Invalid switch type \"%s\". Switch must be one of: \"upgrade\", \"downgrade"
+"\" or \"crossgrade\"."
 msgstr ""
 
 #: includes/class-wcs-switch-totals-calculator.php:190
@@ -2949,9 +2962,9 @@ msgstr ""
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:54
 msgid ""
-"This will generate the persistent cache for linking users with subscriptions."
-" The caches will be generated overtime in the background (via Action "
-"Scheduler)."
+"This will generate the persistent cache for linking users with "
+"subscriptions. The caches will be generated overtime in the background (via "
+"Action Scheduler)."
 msgstr ""
 
 #: includes/data-stores/class-wcs-customer-store-cached-cpt.php:55
@@ -3108,8 +3121,8 @@ msgstr ""
 #: includes/emails/class-wcs-email-expired-subscription.php:157
 #: includes/emails/class-wcs-email-on-hold-subscription.php:157
 msgid ""
-"This controls the email subject line. Leave blank to use the default subject:"
-" %s."
+"This controls the email subject line. Leave blank to use the default "
+"subject: %s."
 msgstr ""
 
 #: includes/emails/class-wcs-email-cancelled-subscription.php:166
@@ -3865,10 +3878,10 @@ msgstr ""
 
 #: includes/upgrades/class-wc-subscriptions-upgrader.php:881
 msgid ""
-"%1$sWarning!%2$s We discovered an issue in %1$sWooCommerce Subscriptions 2.3."
-"0 - 2.3.2%2$s that may cause your subscription renewal order and customer "
-"subscription caches to contain invalid data. For information about how to "
-"update the cached data, please %3$sopen a new support ticket%4$s."
+"%1$sWarning!%2$s We discovered an issue in %1$sWooCommerce Subscriptions "
+"2.3.0 - 2.3.2%2$s that may cause your subscription renewal order and "
+"customer subscription caches to contain invalid data. For information about "
+"how to update the cached data, please %3$sopen a new support ticket%4$s."
 msgstr ""
 
 #: includes/upgrades/class-wcs-repair-suspended-paypal-subscriptions.php:51
@@ -4024,8 +4037,8 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about-2-0.php:93
 msgid ""
 "This new page is also where the customer can suspend or cancel their "
-"subscription, change payment method, change shipping address or "
-"upgrade/downgrade an item."
+"subscription, change payment method, change shipping address or upgrade/"
+"downgrade an item."
 msgstr ""
 
 #. translators: placeholders are opening and closing link tags
@@ -4152,9 +4165,9 @@ msgstr ""
 #. to order them
 #: includes/upgrades/templates/wcs-about-2-0.php:188
 msgid ""
-"Want to list all the subscriptions on a site? Get %sexample.com/wc-"
-"api/v2/subscriptions/%s. Want the details of a specific subscription? Get "
-"%s/wc-api/v2/subscriptions/<id>/%s."
+"Want to list all the subscriptions on a site? Get %sexample.com/wc-api/v2/"
+"subscriptions/%s. Want the details of a specific subscription? Get %s/wc-api/"
+"v2/subscriptions/<id>/%s."
 msgstr ""
 
 #: includes/upgrades/templates/wcs-about-2-0.php:194
@@ -4302,8 +4315,8 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about.php:127
 msgid ""
 "Import subscriptions to WooCommerce via CSV, or export your subscriptions "
-"from WooCommerce to a CSV with the WooCommerce Subscriptions "
-"Importer/Exporter extension."
+"from WooCommerce to a CSV with the WooCommerce Subscriptions Importer/"
+"Exporter extension."
 msgstr ""
 
 #: includes/upgrades/templates/wcs-about.php:128
@@ -4388,16 +4401,16 @@ msgstr ""
 #. to order them
 #: includes/upgrades/templates/wcs-about.php:183
 msgid ""
-"Want to list all the subscriptions on a site? Get %s/wp-"
-"json/wc/v1/subscriptions%s."
+"Want to list all the subscriptions on a site? Get %s/wp-json/wc/v1/"
+"subscriptions%s."
 msgstr ""
 
 #. translators: all placeholders are opening and closing <code> tags, no need
 #. to order them
 #: includes/upgrades/templates/wcs-about.php:187
 msgid ""
-"Want the details of a specific subscription? Get %s/wp-"
-"json/wc/v1/subscriptions/<id>/%s."
+"Want the details of a specific subscription? Get %s/wp-json/wc/v1/"
+"subscriptions/<id>/%s."
 msgstr ""
 
 #. translators: placeholders are opening and closing code tags
@@ -4417,8 +4430,8 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about.php:202
 msgid ""
 "Subscriptions 2.1 now passes the renewal order's total, making it possible "
-"to add a fee or discount to the renewal order with simple one-liners like "
-"%s$order->add_fee()%s or %s$order->add_coupon()%s."
+"to add a fee or discount to the renewal order with simple one-liners like %s"
+"$order->add_fee()%s or %s$order->add_coupon()%s."
 msgstr ""
 
 #. translators: placeholders are opening and closing <a> tags
@@ -4462,8 +4475,8 @@ msgstr ""
 #: includes/upgrades/templates/wcs-upgrade-in-progress.php:36
 msgid ""
 "Rest assured, although the update process may take a little while, it is "
-"coded to prevent defects, your site is safe and will be up and running again,"
-" faster than ever, shortly."
+"coded to prevent defects, your site is safe and will be up and running "
+"again, faster than ever, shortly."
 msgstr ""
 
 #: includes/upgrades/templates/wcs-upgrade.php:19
@@ -4726,14 +4739,14 @@ msgstr[1] ""
 #: includes/wcs-time-functions.php:57
 msgid "%s month"
 msgid_plural "a %s-month"
-msgstr[0] " %s месец"
-msgstr[1] "за %s-месеца"
+msgstr[0] ""
+msgstr[1] ""
 
 #: includes/wcs-time-functions.php:58
 msgid "%s year"
 msgid_plural "a %s-year"
-msgstr[0] "%s година"
-msgstr[1] "%s година"
+msgstr[0] ""
+msgstr[1] ""
 
 #: includes/wcs-user-functions.php:340
 #: templates/single-product/add-to-cart/subscription.php:30
@@ -4955,8 +4968,8 @@ msgstr ""
 #: templates/emails/customer-processing-renewal-order.php:19
 #: templates/emails/plain/customer-processing-renewal-order.php:18
 msgid ""
-"Just to let you know &mdash; we've received your subscription renewal order "
-"#%s, and it is now being processed:"
+"Just to let you know &mdash; we've received your subscription renewal order #"
+"%s, and it is now being processed:"
 msgstr ""
 
 #: templates/emails/customer-renewal-invoice.php:24
@@ -5066,7 +5079,7 @@ msgstr ""
 
 #: templates/myaccount/my-subscriptions.php:74
 msgid "You have no active subscriptions."
-msgstr "Нямате активни абонаменти"
+msgstr ""
 
 #: templates/myaccount/my-subscriptions.php:77
 msgid "Browse products"
@@ -5221,8 +5234,8 @@ msgstr ""
 #. leads to plugins.php in admin
 #: woocommerce-subscriptions.php:694
 msgid ""
-"%1$sWooCommerce Subscriptions is inactive.%2$s The %3$sWooCommerce "
-"plugin%4$s must be active for WooCommerce Subscriptions to work. Please "
+"%1$sWooCommerce Subscriptions is inactive.%2$s The %3$sWooCommerce plugin"
+"%4$s must be active for WooCommerce Subscriptions to work. Please "
 "%5$sinstall & activate WooCommerce &raquo;%6$s"
 msgstr ""
 
@@ -5242,11 +5255,10 @@ msgstr ""
 
 #: woocommerce-subscriptions.php:824
 msgid ""
-"%1$sWarning!%2$s We can see the %1$sWooCommerce Subscriptions Early "
-"Renewal%2$s plugin is active. Version %3$s of %1$sWooCommerce "
-"Subscriptions%2$s comes with that plugin's functionality packaged into the "
-"core plugin. Please deactivate WooCommerce Subscriptions Early Renewal to "
-"avoid any conflicts."
+"%1$sWarning!%2$s We can see the %1$sWooCommerce Subscriptions Early Renewal"
+"%2$s plugin is active. Version %3$s of %1$sWooCommerce Subscriptions%2$s "
+"comes with that plugin's functionality packaged into the core plugin. Please "
+"deactivate WooCommerce Subscriptions Early Renewal to avoid any conflicts."
 msgstr ""
 
 #: woocommerce-subscriptions.php:827
@@ -6350,7 +6362,7 @@ msgstr ""
 #: includes/upgrades/templates/wcs-about-2-0.php:121
 msgctxt "h3 on the About Subscriptions page for this new feature"
 msgid "Change Payment Method"
-msgstr "Смяна на метод на плащане"
+msgstr ""
 
 #: includes/upgrades/templates/wcs-about.php:126
 msgctxt "h3 on the About Subscriptions page for this new feature"
@@ -6428,8 +6440,8 @@ msgstr ""
 msgctxt "Subscription billing period."
 msgid "day"
 msgid_plural "%s days"
-msgstr[0] "ден"
-msgstr[1] "%s дена"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: placeholder is number of weeks. (e.g. "Bill this every week / 4
 #. weeks")
@@ -6437,8 +6449,8 @@ msgstr[1] "%s дена"
 msgctxt "Subscription billing period."
 msgid "week"
 msgid_plural "%s weeks"
-msgstr[0] "седмица"
-msgstr[1] "%s седмици"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: placeholder is number of months. (e.g. "Bill this every month
 #. 4 months")
@@ -6446,8 +6458,8 @@ msgstr[1] "%s седмици"
 msgctxt "Subscription billing period."
 msgid "month"
 msgid_plural "%s months"
-msgstr[0] "месец"
-msgstr[1] "%s месеца"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: placeholder is number of years. (e.g. "Bill this every year / 4
 #. years")
@@ -6455,8 +6467,8 @@ msgstr[1] "%s месеца"
 msgctxt "Subscription billing period."
 msgid "year"
 msgid_plural "%s years"
-msgstr[0] "година"
-msgstr[1] "%s години"
+msgstr[0] ""
+msgstr[1] ""
 
 #: includes/wcs-time-functions.php:82
 msgctxt "Subscription length"
@@ -6476,7 +6488,7 @@ msgstr ""
 #: includes/wcs-time-functions.php:95
 msgctxt "Subscription lengths. e.g. \"For 1 month...\""
 msgid "1 month"
-msgstr "1 месец"
+msgstr ""
 
 #: includes/wcs-time-functions.php:99
 msgctxt "Subscription lengths. e.g. \"For 1 year...\""
@@ -6519,8 +6531,8 @@ msgctxt ""
 "plural, 1 will need singular."
 msgid "month"
 msgid_plural "months"
-msgstr[0] "месец"
-msgstr[1] "месеца"
+msgstr[0] ""
+msgstr[1] ""
 
 #: includes/wcs-time-functions.php:180
 msgctxt ""
@@ -6541,12 +6553,12 @@ msgctxt ""
 "Edit product screen, between the Billing Period and Subscription Length "
 "dropdowns"
 msgid "for"
-msgstr "за"
+msgstr ""
 
 #: templates/admin/deprecated/html-variation-price.php:105
 msgctxt "example number of days / weeks / months"
 msgid "e.g. 3"
-msgstr "пр. 3"
+msgstr ""
 
 #. translators: placeholder is trial period validation message if passed an
 #. invalid value (e.g. "Trial period can not exceed 4 weeks")
